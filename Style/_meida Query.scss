@@ -1,0 +1,20 @@
+@include media-breakpoint-up(sm) {
+  .logo {
+    width: 120px !important;
+  }
+
+  #navAndIntro{
+    background-image: url("../images/bg-curvy-desktop.svg");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .bg{
+    z-index: 0;
+    top: 10px !important;
+    left: -1px !important;
+  }
+}

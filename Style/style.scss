@@ -1,0 +1,132 @@
+/*Customize Bootstrap*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$font-family-sans-serif:'Raleway', sans-serif;
+$input-border-radius:20px;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "meida Query";
+@import "variable";
+/*Custom Css*/
+
+.navBg {
+  background: hsla(218, 22%, 20%, 0.56);
+  backdrop-filter: blur(20px) contrast(130%) !important;
+  z-index: 1000;
+}
+
+.main{
+  background: $mainBg;
+}
+
+.pri{
+  background: $backColor;
+}
+
+.logo{
+  width: 80px;
+  resize: horizontal;
+}
+
+.but{
+  background: $gg;
+}
+
+.link{
+  background: $gg;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cardBg{
+  background: hsl(219, 30%, 18%);
+  z-index: 1000;
+}
+
+.profile{
+  width: 40px;
+  z-index: 2 !important;
+}
+
+.bg{
+  z-index: 0;
+  top: -34px;
+  left: 12px;
+}
+
+.master{
+  max-width: 100%;
+  background: $mainBg;
+}
+
+.curvy{
+  top: -484px;
+  z-index: 1;
+  width: 100%;
+}
+
+.forZ{
+  z-index: 2;
+}
+
+#navAndIntro{
+  background-image: url("../images/bg-curvy-mobile.svg");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.foot{
+  background: $footer;
+  z-index: 1000;
+}
+
+.mainBg{
+  background: $mainBg;
+  margin-top: -138px;
+}
+
+.icon{
+  width: 20px !important;
+}
+
+.footerLogo{
+  width: 97px;
+}
+
+.zin{
+  z-index: 1000;
+}
+
+.lowZ{
+  z-index: 1;
+}
+
+.lowPadding{
+  padding: 20px 0 !important;
+}
+
+.heightPadding{
+  padding: 45px 0 !important;
+}
+
+.forBut {
+  right: 50px;
+  bottom: 50px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.show{
+  visibility: visible;
+}
+
+.forZNav{
+  z-index: 1000;
+}
+
+.low{
+  z-index: 1;
+}
